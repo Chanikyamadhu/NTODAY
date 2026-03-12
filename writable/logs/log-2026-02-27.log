@@ -1,0 +1,68 @@
+CRITICAL - 2026-02-27 12:05:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "auth/admin_login.php"
+[Method: GET, Route: admin/login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/admin_login.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('auth/admin_login', [], true)
+ 3 APPPATH\Controllers\AuthController.php(12): view('auth/admin_login')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\AuthController->adminLogin()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\Development Tools\\Xampp\\htdocs\\NToday-News\\public\\index.php')
+CRITICAL - 2026-02-27 12:08:58 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "తొలి విడత శిక్షణ ముగింపు"
+[Method: GET, Route: news/%E0%B0%A4%E0%B1%8A%E0%B0%B2%E0%B0%BF%20%E0%B0%B5%E0%B0%BF%E0%B0%A1%E0%B0%A4%20%E0%B0%B6%E0%B0%BF%E0%B0%95%E0%B1%8D%E0%B0%B7%E0%B0%A3%20%E0%B0%AE%E0%B1%81%E0%B0%97%E0%B0%BF%E0%B0%82%E0%B0%AA%E0%B1%81]
+in SYSTEMPATH\Router\Router.php on line 768.
+ 1 SYSTEMPATH\Router\Router.php(219): CodeIgniter\Router\Router->checkDisallowedChars('news/తొలి విడత శిక్షణ ముగింపు')
+ 2 SYSTEMPATH\CodeIgniter.php(829): CodeIgniter\Router\Router->handle('news/తొలి విడత శిక్షణ ముగింపు')
+ 3 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\Development Tools\\Xampp\\htdocs\\NToday-News\\public\\index.php')
+CRITICAL - 2026-02-27 12:14:57 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "బాల్క సుమన్ అరెస్ట్‌పై స్పందన"
+[Method: GET, Route: news/%E0%B0%AC%E0%B0%BE%E0%B0%B2%E0%B1%8D%E0%B0%95%20%E0%B0%B8%E0%B1%81%E0%B0%AE%E0%B0%A8%E0%B1%8D%20%E0%B0%85%E0%B0%B0%E0%B1%86%E0%B0%B8%E0%B1%8D%E0%B0%9F%E0%B1%8D%E2%80%8C%E0%B0%AA%E0%B1%88%20%E0%B0%B8%E0%B1%8D%E0%B0%AA%E0%B0%82%E0%B0%A6%E0%B0%A8]
+in SYSTEMPATH\Router\Router.php on line 768.
+ 1 SYSTEMPATH\Router\Router.php(219): CodeIgniter\Router\Router->checkDisallowedChars('news/బాల్క సుమన్ అరెస్ట్‌పై స్పందన')
+ 2 SYSTEMPATH\CodeIgniter.php(829): CodeIgniter\Router\Router->handle('news/బాల్క సుమన్ అరెస్ట్‌పై స్పందన')
+ 3 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\Development Tools\\Xampp\\htdocs\\NToday-News\\public\\index.php')
+CRITICAL - 2026-02-27 12:15:11 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "కదిరి కొండ చుట్టూ ఆక్రమణలను తొలగించాలి"
+[Method: GET, Route: news/%E0%B0%95%E0%B0%A6%E0%B0%BF%E0%B0%B0%E0%B0%BF%20%E0%B0%95%E0%B1%8A%E0%B0%82%E0%B0%A1%20%E0%B0%9A%E0%B1%81%E0%B0%9F%E0%B1%8D%E0%B0%9F%E0%B1%82%20%E0%B0%86%E0%B0%95%E0%B1%8D%E0%B0%B0%E0%B0%AE%E0%B0%A3%E0%B0%B2%E0%B0%A8%E0%B1%81%20%E0%B0%A4%E0%B1%8A%E0%B0%B2%E0%B0%97%E0%B0%BF%E0%B0%82%E0%B0%9A%E0%B0%BE%E0%B0%B2%E0%B0%BF]
+in SYSTEMPATH\Router\Router.php on line 768.
+ 1 SYSTEMPATH\Router\Router.php(219): CodeIgniter\Router\Router->checkDisallowedChars('news/కదిరి కొండ చుట్టూ ఆక్రమణలను తొలగించాలి')
+ 2 SYSTEMPATH\CodeIgniter.php(829): CodeIgniter\Router\Router->handle('news/కదిరి కొండ చుట్టూ ఆక్రమణలను తొలగించాలి')
+ 3 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\Development Tools\\Xampp\\htdocs\\NToday-News\\public\\index.php')
+CRITICAL - 2026-02-27 12:15:13 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "జర్నలిస్టుల నియోజకవర్గ కమిటీని అభినందించిన నకిరేకల్ ఎమ్మెల్యే"
+[Method: GET, Route: news/%E0%B0%9C%E0%B0%B0%E0%B1%8D%E0%B0%A8%E0%B0%B2%E0%B0%BF%E0%B0%B8%E0%B1%8D%E0%B0%9F%E0%B1%81%E0%B0%B2%20%E0%B0%A8%E0%B0%BF%E0%B0%AF%E0%B1%8B%E0%B0%9C%E0%B0%95%E0%B0%B5%E0%B0%B0%E0%B1%8D%E0%B0%97%20%E0%B0%95%E0%B0%AE%E0%B0%BF%E0%B0%9F%E0%B1%80%E0%B0%A8%E0%B0%BF%20%E0%B0%85%E0%B0%AD%E0%B0%BF%E0%B0%A8%E0%B0%82%E0%B0%A6%E0%B0%BF%E0%B0%82%E0%B0%9A%E0%B0%BF%E0%B0%A8%20%E0%B0%A8%E0%B0%95%E0%B0%BF%E0%B0%B0%E0%B1%87%E0%B0%95%E0%B0%B2%E0%B1%8D%20%E0%B0%8E%E0%B0%AE%E0%B1%8D%E0%B0%AE%E0%B1%86%E0%B0%B2%E0%B1%8D%E0%B0%AF%E0%B1%87]
+in SYSTEMPATH\Router\Router.php on line 768.
+ 1 SYSTEMPATH\Router\Router.php(219): CodeIgniter\Router\Router->checkDisallowedChars('news/జర్నలిస్టుల నియోజకవర్గ కమిటీని అభినందించిన నకిరేకల్ ఎమ్మెల్యే')
+ 2 SYSTEMPATH\CodeIgniter.php(829): CodeIgniter\Router\Router->handle('news/జర్నలిస్టుల నియోజకవర్గ కమిటీని అభినందించిన నకిరేకల్ ఎమ్మెల్యే')
+ 3 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\Development Tools\\Xampp\\htdocs\\NToday-News\\public\\index.php')
+CRITICAL - 2026-02-27 12:17:02 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "లావోస్ సైబర్ ఫ్రాడ్ ముఠా గుట్టురట్టు"
+[Method: GET, Route: news/%E0%B0%B2%E0%B0%BE%E0%B0%B5%E0%B1%8B%E0%B0%B8%E0%B1%8D%20%E0%B0%B8%E0%B1%88%E0%B0%AC%E0%B0%B0%E0%B1%8D%20%E0%B0%AB%E0%B1%8D%E0%B0%B0%E0%B0%BE%E0%B0%A1%E0%B1%8D%20%E0%B0%AE%E0%B1%81%E0%B0%A0%E0%B0%BE%20%E0%B0%97%E0%B1%81%E0%B0%9F%E0%B1%8D%E0%B0%9F%E0%B1%81%E0%B0%B0%E0%B0%9F%E0%B1%8D%E0%B0%9F%E0%B1%81]
+in SYSTEMPATH\Router\Router.php on line 768.
+ 1 SYSTEMPATH\Router\Router.php(219): CodeIgniter\Router\Router->checkDisallowedChars('news/లావోస్ సైబర్ ఫ్రాడ్ ముఠా గుట్టురట్టు')
+ 2 SYSTEMPATH\CodeIgniter.php(829): CodeIgniter\Router\Router->handle('news/లావోస్ సైబర్ ఫ్రాడ్ ముఠా గుట్టురట్టు')
+ 3 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\Development Tools\\Xampp\\htdocs\\NToday-News\\public\\index.php')
